@@ -1,0 +1,9 @@
+service: image-to-text-converter
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  imageToTextConverter:
+    handler: index.handler

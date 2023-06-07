@@ -1,0 +1,11 @@
+{
+    "name": "text-to-image-convert",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1392.0",
+        "tesseract.js": "^4.1.0",
+        "uuid": "^3.3.2"
+    }
+}
